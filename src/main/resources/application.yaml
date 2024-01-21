@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://catgegorytibox.mysql.database.azure.com:3306/category_db?createDatabaseIfNotExist=true
+    username: category_db
+    password: 73xsTX9Y:B-DSkM
+    application:
+      name: CATEGORY-SERVICE
+  jpa:
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+server:
+  port: 8088
